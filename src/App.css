@@ -1,3 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.backgroundSec1 {
+  background-image: url("../public/assets/img/bg\ &\ color\ palette/sec1Bg.svg");
+  background-position: bottom;
+  background-size: cover;
+}
