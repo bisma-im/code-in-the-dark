@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/code-in-the-dark/static/css/main.e2493e5b.css",
-    "main.js": "/code-in-the-dark/static/js/main.40df267a.js",
+    "main.css": "/code-in-the-dark/static/css/main.9aac1262.css",
+    "main.js": "/code-in-the-dark/static/js/main.b8851380.js",
     "static/js/453.1a0a19bc.chunk.js": "/code-in-the-dark/static/js/453.1a0a19bc.chunk.js",
-    "static/media/torus-knot.png.svg": "/code-in-the-dark/static/media/torus-knot.png.9ca3f9c1d0f9784a1de1aa3edb9f907a.svg",
+    "static/media/analyze.gif": "/code-in-the-dark/static/media/analyze.b5f8a60bcf0104aa2c02.gif",
+    "static/media/evaluation.gif": "/code-in-the-dark/static/media/evaluation.abb97ad8ac389e566299.gif",
+    "static/media/sec1Bg.svg": "/code-in-the-dark/static/media/sec1Bg.2510c8c25aec58aaa913.svg",
+    "static/media/brainstorm.gif": "/code-in-the-dark/static/media/brainstorm.16551e6f85078d717c66.gif",
+    "static/media/torus-knot.png.svg": "/code-in-the-dark/static/media/torus-knot.png.163919a4eb6266a3c8ff701ff08b8aa9.svg",
     "static/media/secondBgImage.png": "/code-in-the-dark/static/media/secondBgImage.246ffecd32793212df99.png",
-    "static/media/torus.png.svg": "/code-in-the-dark/static/media/torus.png.10c87b2c677435ec64721e244cb8cda9.svg",
-    "static/media/pill.png.svg": "/code-in-the-dark/static/media/pill.png.b82340c340932c2b53f1b15ab2491254.svg",
-    "static/media/hemisphere.png.svg": "/code-in-the-dark/static/media/hemisphere.png.87ff58da4125851e1c6fbb1599fae28d.svg",
-    "static/media/cube.png.svg": "/code-in-the-dark/static/media/cube.png.c457dcd406e80bd126b27e8d27a29041.svg",
-    "static/media/cylinder.png.svg": "/code-in-the-dark/static/media/cylinder.png.a744baf0667b5ad3a039482be916c8bd.svg",
-    "static/media/cone.png.svg": "/code-in-the-dark/static/media/cone.png.d564ac0f48a158c1b74f2b964fbe49a1.svg",
+    "static/media/torus.png.svg": "/code-in-the-dark/static/media/torus.png.091f4c04865b8e5e91694552e9d84829.svg",
+    "static/media/cat-computer.gif": "/code-in-the-dark/static/media/cat-computer.681a408b5debcd2b7b3b.gif",
+    "static/media/pill.png.svg": "/code-in-the-dark/static/media/pill.png.7ebd08c339642f837ef83fb4a72ff4d0.svg",
+    "static/media/hemisphere.png.svg": "/code-in-the-dark/static/media/hemisphere.png.a7a97e1c9451d34a8a81d4622ffb8e70.svg",
+    "static/media/cube.png.svg": "/code-in-the-dark/static/media/cube.png.b1bc4dc324dd5723c354a32b77067f00.svg",
+    "static/media/cylinder.png.svg": "/code-in-the-dark/static/media/cylinder.png.a916d18734b4e9d93c6049997d9377b5.svg",
+    "static/media/cone.png.svg": "/code-in-the-dark/static/media/cone.png.dbdf8511213ddd9f314d1d246b511c25.svg",
+    "static/media/LOGOCOMPETITIONWHITE-removebg-preview.png": "/code-in-the-dark/static/media/LOGOCOMPETITIONWHITE-removebg-preview.71c94578e251a1390eab.png",
     "static/media/image2.svg": "/code-in-the-dark/static/media/image2.6610d37da312c86feefa5c137b31ac43.svg",
     "static/media/image7.png": "/code-in-the-dark/static/media/image7.317c2c331b71342d1ed0.png",
     "static/media/image8.png": "/code-in-the-dark/static/media/image8.aee0ae472958d445b3d2.png",
@@ -18,13 +24,17 @@
     "static/media/image9.png": "/code-in-the-dark/static/media/image9.cd0ae849b8e1ac2083e5.png",
     "static/media/image6.png": "/code-in-the-dark/static/media/image6.a00356ce30d6ac144387.png",
     "static/media/logo.svg": "/code-in-the-dark/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/code-in-the-dark/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/code-in-the-dark/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/code-in-the-dark/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/code-in-the-dark/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/code-in-the-dark/index.html",
-    "main.e2493e5b.css.map": "/code-in-the-dark/static/css/main.e2493e5b.css.map",
-    "main.40df267a.js.map": "/code-in-the-dark/static/js/main.40df267a.js.map",
+    "main.9aac1262.css.map": "/code-in-the-dark/static/css/main.9aac1262.css.map",
+    "main.b8851380.js.map": "/code-in-the-dark/static/js/main.b8851380.js.map",
     "453.1a0a19bc.chunk.js.map": "/code-in-the-dark/static/js/453.1a0a19bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2493e5b.css",
-    "static/js/main.40df267a.js"
+    "static/css/main.9aac1262.css",
+    "static/js/main.b8851380.js"
   ]
 }
