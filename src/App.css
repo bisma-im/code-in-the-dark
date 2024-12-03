@@ -72,3 +72,31 @@ body {
 .h2 {
   color: #7038FA
 }
+
+/* section 4 */
+/* SlidingBackgroundSection.css */
+.sliding-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("https://via.placeholder.com/1920x1080");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-position 1.5s ease-out;
+}
+
+.sliding-section.animate-bg {
+  background-position: center top; /* Moves the background upwards */
+}
+
+.content {
+  z-index: 1;
+  color: white;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for readability */
+  border-radius: 10px;
+}
