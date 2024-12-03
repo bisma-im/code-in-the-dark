@@ -8,7 +8,10 @@ function App() {
     <>
       <CustomNavbar />
       <Section1 />
+      <Section2/>
+      <Section4/>
       <StepstoFollow />
+
     </>
   );
 }
