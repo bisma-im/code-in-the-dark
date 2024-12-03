@@ -5,7 +5,7 @@ function Sec4Cards({ cardData }) {
 console.log(cardData)
     return (
         <div className="d-flex justify-content-center">
-        <Card className="custom-card" style={{ backgroundColor: 'black', maxWidth: '100%', border: '2px solid #7038FA' }}>
+        <Card className="custom-card" style={{ backgroundColor: 'black',border: '2px solid #7038FA' }}>
           {/* Optionally add a triangle */}
           {/* <div className="triangle"></div> */}
   

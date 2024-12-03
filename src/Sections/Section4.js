@@ -60,9 +60,9 @@ function Section4() {
             <Carousel>
                 {groupedCards.map((group, index) => (
                     <Carousel.Item key={index}>
-                        <Row className="d-flex justify-content-center">
+                        <Col className="d-flex justify-content-center">
                             {group}
-                        </Row>
+                        </Col>
                     </Carousel.Item>
                 ))}
             </Carousel>
