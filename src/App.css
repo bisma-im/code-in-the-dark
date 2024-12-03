@@ -24,3 +24,102 @@ body {
     border-color: transparent;
   }
 }
+
+body {
+  background-color: black;
+}
+
+/* PartnerCarousel.css */
+.marquee-container {
+  margin: 2rem auto;
+  text-align: center;
+  width: 80%;
+  overflow: hidden;
+}
+
+.marquee-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marquee-item {
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  display: inline-block; /* Ensure items are inline */
+  margin: 30px;
+}
+
+.marquee-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.h2 {
+  color: #7038FA
+}
+
+/* section 4 */
+/* SlidingBackgroundSection.css */
+.sliding-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center bottom; /* Initial position */
+  background-repeat: no-repeat;
+  transition: background-position 1.5s ease-out; /* Smooth animation */
+}
+
+.sliding-section.animate-bg {
+  background-position: center top; /* Moves the background upwards */
+}
+
+.content {
+  z-index: 1;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* CustomCard.css */
+.custom-card {
+  margin-top: 100px;
+  position: relative;
+  padding-top: 60px; /* Increase padding for more space at the top */
+  overflow: visible; /* Prevent clipping */
+  width: 100%;
+  max-width: 100%;
+  color: white;
+  margin-bottom: 40px; /* Add margin at the bottom to separate the cards */
+}
+
+/* Container for the icon, positioned above the card */
+.custom-card .card-icon-container {
+  position: absolute;
+  top: -40px; /* Move the icon higher above the card */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 80px; /* Adjust the size to make sure the icon fits */
+  height: 80px;
+}
+
+/* Styling for the icon */
+.custom-card .card-icon {
+  width: 100%;  /* Fill the container */
+  height: 100%;
+  object-fit: contain;  
+  background-color: transparent;  /* Ensure no background color */
+}
+
+.custom-card .card-body {
+  position: relative;
+  z-index: 1; /* Ensure text is below the icon */
+  padding-top: 60px; /* Ensure content doesn't overlap the icon */
+}
