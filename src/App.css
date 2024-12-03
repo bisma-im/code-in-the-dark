@@ -82,11 +82,10 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url("https://via.placeholder.com/1920x1080");
   background-size: cover;
-  background-position: center;
+  background-position: center bottom; /* Initial position */
   background-repeat: no-repeat;
-  transition: background-position 1.5s ease-out;
+  transition: background-position 1.5s ease-out; /* Smooth animation */
 }
 
 .sliding-section.animate-bg {
@@ -97,6 +96,42 @@ body {
   z-index: 1;
   color: white;
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for readability */
   border-radius: 10px;
+}
+
+/* CustomCard.css */
+.custom-card {
+  margin-top: 100px;
+  position: relative;
+  padding-top: 60px; /* Increase padding for more space at the top */
+  overflow: visible; /* Prevent clipping */
+  width: 100%;
+  max-width: 100%;
+  color: white;
+  margin-bottom: 40px; /* Add margin at the bottom to separate the cards */
+}
+
+/* Container for the icon, positioned above the card */
+.custom-card .card-icon-container {
+  position: absolute;
+  top: -40px; /* Move the icon higher above the card */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 80px; /* Adjust the size to make sure the icon fits */
+  height: 80px;
+}
+
+/* Styling for the icon */
+.custom-card .card-icon {
+  width: 100%;  /* Fill the container */
+  height: 100%;
+  object-fit: contain;  
+  background-color: transparent;  /* Ensure no background color */
+}
+
+.custom-card .card-body {
+  position: relative;
+  z-index: 1; /* Ensure text is below the icon */
+  padding-top: 60px; /* Ensure content doesn't overlap the icon */
 }

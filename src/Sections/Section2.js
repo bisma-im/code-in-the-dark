@@ -1,17 +1,23 @@
 import React from 'react'
 import { Image, Row } from 'react-bootstrap'
 import Marquee from "react-marquee-slider";
+import image1 from '../assets/img/ourpartners/image1.png';
+import image2 from '../assets/img/ourpartners/image2.svg';
+import image5 from '../assets/img/ourpartners/image5.png';
+import image6 from '../assets/img/ourpartners/image6.png';
+import image7 from '../assets/img/ourpartners/image7.png';
+import image8 from '../assets/img/ourpartners/image8.png';
+import image9 from '../assets/img/ourpartners/image9.png';
 
 function Section2() {
     const partners = [
-        { id: 1, logo: '/assets/img/ourpartners/image1.png' },
-        { id: 1, logo: '/assets/img/ourpartners/image2.svg' },
-        { id: 2, logo: '/assets/img/ourpartners/image5.png' },
-        { id: 3, logo: '/assets/img/ourpartners/image6.png' },
-        { id: 4, logo: '/assets/img/ourpartners/image7.png' },
-        { id: 4, logo: '/assets/img/ourpartners/image8.png' },
-        { id: 4, logo: '/assets/img/ourpartners/image9.png' },
-        // Add more logos as needed
+        { id: 1, logo: image1 },
+        { id: 2, logo: image2 },
+        { id: 3, logo: image5 },
+        { id: 4, logo: image6 },
+        { id: 5, logo: image7 },
+        { id: 6, logo: image8 },
+        { id: 7, logo: image9 },
     ];
 
     const settings = {
