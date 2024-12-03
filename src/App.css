@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    background-color: black;
+}
+/* TypingEffect.css */
+.typed-text {
+    font-family: 'Courier New', Courier, monospace;
+    color: #7038FA; /* Custom color for the typing text */
+    border-right: 2px solid #7038FA; /* Blinking cursor effect */
+    padding-right: 5px;
+    animation: blink 0.7s step-end infinite;
+  }
+  
+  /* Blinking cursor effect */
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
