@@ -1,5 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: black;
+}
 .backgroundSec1 {
   background-image: url("../public/assets/img/bg\ &\ color\ palette/sec1Bg.svg");
   background-position: bottom;
   background-size: cover;
+}
+/* TypingEffect.css */
+.typed-text {
+  font-family: "Courier New", Courier, monospace;
+  color: #7038fa; /* Custom color for the typing text */
+  border-right: 2px solid #7038fa; /* Blinking cursor effect */
+  padding-right: 5px;
+  animation: blink 0.7s step-end infinite;
+}
+
+/* Blinking cursor effect */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }

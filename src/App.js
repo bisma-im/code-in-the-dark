@@ -8,8 +8,7 @@ function App() {
     <>
       <CustomNavbar />
       <Section1 />
+      <StepstoFollow />
     </>
   );
 }
-
-export default App;
