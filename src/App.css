@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: black;
+}
+
+/* PartnerCarousel.css */
+.marquee-container {
+  margin: 2rem auto;
+  text-align: center;
+  width: 80%;
+  overflow: hidden;
+}
+
+.marquee-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marquee-item {
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  display: inline-block; /* Ensure items are inline */
+  margin: 30px;
+}
+
+.marquee-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.h2 {
+  color: #7038FA
+}
